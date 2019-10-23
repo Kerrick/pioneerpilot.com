@@ -1,0 +1,364 @@
+@import "normalize.css/normalize";
+
+$color-accent: rgb(39,65,107);
+$color-bg: rgb(254,252,229);
+$color-text: rgb(14,14,11);
+$card-width: 265px;
+$card-height: 370px;
+@mixin ff-header() {
+  font-family: 'Cinzel', Cursive;
+  text-transform: uppercase;
+  letter-spacing: -1em * (2/44);
+  font-weight: 700;
+}
+@mixin ff-body() {
+  font-family: 'Fauna One', Serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body, html {
+  @include ff-body();
+  color: $color-text;
+  background: $color-bg;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  @include ff-header();
+}
+a:link, a:hover, a:focus, a:visited {
+  color: $color-accent;
+  text-underline-offset: 3px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+
+  h1 {
+    margin: 0;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  nav {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 600px;
+    max-width: 400px;
+
+    a {
+      color: black;
+      text-underline-offset: 0.5rem;
+      position: relative;
+
+      &:focus,
+      &:hover {
+        color: $color-accent;
+        small {
+          display: block;
+        }
+      }
+
+      small {
+        display: none;
+        font: 10px system-ui;
+        position: absolute;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        top: -2px;
+        line-height: 1.5rem;
+        text-align: center;
+        color: white;
+        background: $color-accent;
+        border-radius: 3px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.hero {
+  background: $color-text;
+  color: white;
+  min-height: 240px;
+  text-align: center;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+
+  a {
+    color: inherit;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 4rem;
+  }
+  &__subtitle {
+    font-size: 1.3333rem;
+  }
+
+  &__title, &__subtitle {
+    text-shadow: rgba(0, 0, 0, 1) 0px 0px 10px, rgba(0, 0, 0, 0.8) 0px 0px 2px;
+    margin: 1rem auto 0;
+    box-shadow: 0px 0px 20px 16px rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+
+  &__image {
+    filter: blur(4px);
+    object-fit: cover;
+    object-position: center 33%;
+    position: absolute;
+    width: calc(100% + 1rem);
+    left: -0.5rem;
+    top: -0.5rem;
+    height: calc(100% + 1rem);
+  }
+}
+.content {
+  &--home {
+    display: flex;
+    margin: 1rem auto;
+    // max-width: 720px;
+    max-width: calc(720px - 240px - 1rem);
+    min-height: 100vh;
+
+    & > *:first-child {
+      flex-grow: 1;
+    }
+    & > aside {
+      width: 240px;
+    }
+  }
+  &--article {
+    width: calc(#{2 * $card-width} + 1rem);
+    margin: 2rem auto 0;
+  }
+}
+footer {
+  background: $color-text;
+  color: $color-bg;
+  padding: 1rem;
+}
+.legal {
+  font-size: 9px;
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto;
+
+  a {
+    color: inherit;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+.feed {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  &__item {
+    margin: 0;
+    padding: 0;
+  }
+}
+.article-preview {
+  padding-top: 2rem;
+
+  h2 {
+    margin: 0;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+.article,
+.article-preview {
+  p {
+    line-height: 1.4;
+    hyphens: auto;
+    hyphenate-limit-chars: 10 4 4;
+  }
+  blockquote {
+    border-left: 1px solid rgba($color-text, 0.6);
+    margin-left: 0;
+    padding: 0 0 0 1rem;
+    color: rgba($color-text, 0.6);
+  }
+}
+.article-meta {
+  color: rgba($color-text, 0.6);
+  font-size: 0.8rem;
+  
+  &__author {
+    color: rgba($color-text, 0.6);
+  }
+
+  a {
+    color: inherit;
+  }
+}
+.triplet-cards {
+  height: $card-height;
+  width: calc(#{2 * $card-width} + 1rem);
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+
+  &::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 66%,
+      rgba(0, 0, 0, 0.65) 100%
+    );
+    z-index: 4;
+    pointer-events: none;
+  }
+
+  &__card {
+    position: absolute;
+    top: 0;
+    border-radius: 12px;
+    width: $card-width;
+    height: $card-height;
+    &:hover {
+      z-index: 3;
+    }
+
+    &--center {
+      left: calc(50% - (265px / 2));
+      z-index: 2;
+      filter: contrast(1.1);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0px 0px 3px
+        rgba(0, 0, 0, 0.4);
+    }
+
+    &--left {
+      left: 0;
+      filter: contrast(0.9);
+    }
+
+    &--right {
+      right: 0;
+      filter: contrast(0.9);
+    }
+  }
+}
+.single-card {
+  float: right;
+  margin: 0 0 0 1rem;
+
+  &__image {
+    height: $card-height;
+    width: auto;
+  }
+}
+.decklist {
+  border: 1px solid $color-text;
+  padding: 1rem;
+
+  &__title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  &__info {
+    color: rgba($color-text, 0.6);
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  &__list {
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  &__section {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    break-inside: avoid;
+  }
+  &__section-title {
+    margin: 0;
+    padding: 1rem 0 .25rem;
+    font-size: 1rem;
+  }
+  &__card {
+    margin: 0.5rem 0 0;
+    padding: 0;
+    display: flex;
+    line-height: 1.2;
+  }
+  &__name {
+    text-decoration: none;
+  }
+  &__quantity {
+    margin-right: 0.25rem;
+  }
+  &__mana {
+    white-space: nowrap;
+    margin-left: auto;
+  }
+}
+.mana {
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  line-height: 1rem;
+  margin: -1px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0px 1px 2px 0px rgba($color-text, 0.6);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+
+  &--w,
+  &--u,
+  &--b,
+  &--r,
+  &--g,
+  &--t {
+    font-size: 0;
+  }
+
+  &--num { background: rgb(194, 185, 182); }
+  &--w { background: rgb(245, 242, 204); }
+  &--u { background: rgb(160, 214, 240); }
+  &--b { background: rgb(192, 183, 180); }
+  &--r { background: rgb(238, 160, 133); }
+  &--g { background: rgb(143, 199, 162); }
+  &--c { background: rgb(194, 185, 182); font-size: 1rem; }
+
+  & > i {
+    font-size: 0.8rem;
+    color: $color-text;
+  }
+}

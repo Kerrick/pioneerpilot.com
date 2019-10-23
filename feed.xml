@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pioneer Pilot</title>
+    <link>https://pioneerpilot.com/</link>
+    <description>Brews, News, and Reviews for Magic&#8217;s Newest Format</description>
+    <lastBuildDate>Mon, 22 Oct 2019 23:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Building A Manabase For Pioneer</title>
+      <link>https://pioneerpilot.com/articles/2019/october/building-a-manabase-for-pioneer/</link>
+      <pubDate>Mon, 22 Oct 2019 23:00:00 -0500</pubDate>
+      <author>Mrs. Mulligan</author>
+      <description><![CDATA[
+        Pioneer&#8217;s initial ban list only includes five cards: the
+        <a href="https://scryfall.com/search?q=banned%3Apioneer">fetch
+        lands</a>. What does this mean for building a manabase? In this
+        article we explore the multi-color lands available in the format,
+        the best specialty mono-color lands, and what utility lands you
+        might consider including. Does banning the fetch lands prevent
+        three- and four-color decks like Wizards hopes?
+        <a href="/articles/2019/october/building-a-manabase-for-pioneer/">Read More</a>
+      ]]></description>
+    </item>
+    <item>
+      <title>Wizards of the Coast Announces Pioneer Format!</title>
+      <link>https://pioneerpilot.com/articles/2019/october/wizards-announces-pioneer-format/</link>
+      <pubDate>Mon, 21 Oct 2019 23:00:00 -0500</pubDate>
+      <author>Mrs. Mulligan</author>
+      <description><![CDATA[
+        As explained in their official blog post, Wizards of the Coast
+        announced a new format today: Pioneer. Like Modern, the Pioneer
+        format does not rotate, and includes cards that have been in
+        standard since a certain set. But unlike Modern, it starts at
+        Return to Ravnica, leaving a much smaller card pool to work with.
+        What does this mean for your old Standard decks? How does mana work
+        in this format? All this and more in PioneerPilot.com&#8217;s first
+        article.
+        <a href="/articles/2019/october/wizards-announces-pioneer-format/">Read More</a>
+      ]]></description>
+    </item>
+  </channel>
+</rss>

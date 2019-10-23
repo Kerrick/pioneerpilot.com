@@ -1,0 +1,13 @@
+{
+  "name": "pipi-website",
+  "version": "0.0.1",
+  "description": "Source code of the main website",
+  "main": "index.html",
+  "repository": "https://github.com/Kerrick/pipi-website",
+  "author": "Kerrick Long <me@kerricklong.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
