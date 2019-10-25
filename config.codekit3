@@ -25,6 +25,14 @@
 		"oAP": "/articles/2019/october/building-a-manabase-for-pioneer/index.html",
 		"oF": 0
 		},
+	"/articles/2019/october/five-build-around-blue-cards/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/articles/2019/october/five-build-around-blue-cards/index.html",
+		"oF": 0
+		},
 	"/articles/2019/october/wizards-announces-pioneer-format/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -51,6 +59,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/assets/scripts/main-min.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/scripts/main-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
+		},
+	"/assets/scripts/ready-min.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/scripts/ready-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
 		},
 	"/assets/styles/main-compiled.css": {
 		"aP": 1,
@@ -91,6 +121,61 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/scripts/decklist.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/assets/scripts/decklist-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
+		},
+	"/scripts/hover-card.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/assets/scripts/hover-card-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
+		},
+	"/scripts/main.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/scripts/main-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
+		},
+	"/scripts/mid-article-response.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/assets/scripts/mid-article-response-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
+		},
+	"/scripts/utils/ready.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/assets/scripts/ready-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
 		},
 	"/styles/main.scss": {
 		"aP": 1,
@@ -2015,15 +2100,15 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathRelativePath": "/assets/scripts",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"bundleFormat": 0,
+		"autoOutputPathStyle": 1,
+		"bundleFormat": 4,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
-		"transpilerStyle": 0
+		"syntaxCheckerStyle": 0,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsJSON": {
 		"autoOutputAction": 1,

@@ -1,0 +1,1 @@
+var _ready_min=function(e){"use strict";var n=function e(n){"loading"!=document.readyState?n():document.addEventListener("DOMContentLoaded",n)};return e.ready=n,e}({});
