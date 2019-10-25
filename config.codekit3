@@ -92,6 +92,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/feed.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -208,7 +216,8 @@
 	"displayValue": "pioneerpilot.com",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_teal",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 593738719.13794196
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
