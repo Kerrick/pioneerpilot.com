@@ -5,6 +5,8 @@ $color-bg: rgb(254,252,239);
 $color-text: rgb(14,14,11);
 $card-width: 265px;
 $card-height: 370px;
+$nice-article-width: calc(#{2 * $card-width} + 2rem);
+
 @mixin ff-header() {
   font-family: 'Cinzel', Cursive;
   text-transform: uppercase;
@@ -156,8 +158,9 @@ header {
     }
   }
   &--article {
-    width: calc(#{2 * $card-width} + 1rem);
+    max-width: calc(#{$nice-article-width} + 2rem);
     margin: 2rem auto 0;
+    padding: 0 1rem;
   }
 }
 footer {
@@ -216,6 +219,7 @@ footer {
   .decklist {
     margin: 1rem 0;
   }
+  h1, h2, h3, h4, h5, h6 { clear: both; }
 }
 .article-meta {
   color: rgba($color-text, 0.6);
@@ -287,10 +291,14 @@ footer {
   }
 }
 .single-card {
-  float: right;
-  margin: 0 0 0 1rem;
+  @media (min-width: $nice-article-width) {
+    float: right;
+    margin: 0 0 0 1rem;
+  }
 
   &__image {
+    display: block;
+    margin: 0 auto;
     height: $card-height;
     width: auto;
   }
@@ -298,6 +306,7 @@ footer {
 .decklist {
   border: 1px solid $color-text;
   padding: 1rem;
+  clear: both;
 
   &__title {
     font-size: 2rem;
@@ -321,8 +330,10 @@ footer {
   }
 
   &__list {
-    columns: 2;
     column-gap: 2rem;
+    @media (min-width: $nice-article-width) {
+      columns: 2;
+    }
   }
 
   &__section {
@@ -412,11 +423,15 @@ footer {
 .mid-article-response {
   border: 1px solid $color-text;
   border-radius: 8px;
-  width: $card-width;
-  float: right;
   padding: 1rem;
-  margin: 0 0 1rem 1rem;
+  margin: 0 0 1rem;
   font-size: 0.8rem;
+
+  @media (min-width: $nice-article-width) {
+    width: $card-width;
+    float: right;
+    margin-left: 1rem;
+  }
 
   &__title {
     margin: 0;
