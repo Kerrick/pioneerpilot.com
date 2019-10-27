@@ -4,7 +4,7 @@ ready(() => {
   document.body.addEventListener('mouseover', event => {
     if (event.target.tagName !== 'A' || !event.target.getAttribute('href') || !event.target.getAttribute('href').startsWith('https://scryfall.com/card/') || event.target.querySelector('img')) { return; }
 
-    const [, set, number] = event.target.getAttribute('href').match(/https:\/\/scryfall.com\/card\/(\w+)\/(\d+)\/.*/);
+    const [, set, number] = event.target.getAttribute('href').match(/https:\/\/scryfall.com\/card\/(\w+)\/(\d+)(\/.*|$)/);
     const png = `https://api.scryfall.com/cards/${set}/${number}/?format=image&version=png`;
     const img = document.createElement('img');
     img.src = png;
