@@ -7,7 +7,7 @@
 		"uuidString": "E822E048-F7FE-4AE0-A87F-FC6124CB6911"
 		}
 	],
-"creatorBuild": "31927",
+"creatorBuild": "31934",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -25,9 +25,25 @@
 		"oAP": "/articles/2019/october/building-a-manabase-for-pioneer/index.html",
 		"oF": 0
 		},
+	"/articles/2019/october/building-a-manabase-for-pioneer/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/articles/2019/october/building-a-manabase-for-pioneer/index.html",
+		"oF": 0
+		},
 	"/articles/2019/october/five-build-around-blue-cards/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/articles/2019/october/five-build-around-blue-cards/index.html",
+		"oF": 0
+		},
+	"/articles/2019/october/five-build-around-blue-cards/index.kit": {
+		"cB": 0,
+		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/articles/2019/october/five-build-around-blue-cards/index.html",
@@ -41,9 +57,25 @@
 		"oAP": "/articles/2019/october/mono-blue-prison-primer/index.html",
 		"oF": 0
 		},
+	"/articles/2019/october/mono-blue-prison-primer/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/articles/2019/october/mono-blue-prison-primer/index.html",
+		"oF": 0
+		},
 	"/articles/2019/october/wizards-announces-pioneer-format/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/articles/2019/october/wizards-announces-pioneer-format/index.html",
+		"oF": 0
+		},
+	"/articles/2019/october/wizards-announces-pioneer-format/index.kit": {
+		"cB": 0,
+		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/articles/2019/october/wizards-announces-pioneer-format/index.html",
@@ -65,11 +97,11 @@
 		"oAP": "/assets/images/airplane.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/scripts/main-min.js": {
-		"bF": 4,
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -80,7 +112,7 @@
 		"tS": 1
 		},
 	"/assets/scripts/ready-min.js": {
-		"bF": 4,
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -99,6 +131,20 @@
 		"oAP": "/assets/styles/main-compiled-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/build/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
+	"/build/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/build/node_modules",
+		"oF": 0
 		},
 	"/CNAME": {
 		"cB": 0,
@@ -124,6 +170,30 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/metagame/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/metagame/index.html",
+		"oF": 0
+		},
+	"/metagame/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/metagame/index.html",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -138,8 +208,72 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/partials/_foot.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/partials/_foot.html",
+		"oF": 0
+		},
+	"/partials/_footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/partials/_footer.html",
+		"oF": 0
+		},
+	"/partials/_head.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/partials/_head.html",
+		"oF": 0
+		},
+	"/partials/_header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/partials/_header.html",
+		"oF": 0
+		},
+	"/partials/_og.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/partials/_og.html",
+		"oF": 0
+		},
+	"/partials/_title.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/partials/_title.html",
+		"oF": 0
+		},
+	"/partials/article/_hero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/partials/article/_hero.html",
+		"oF": 0
+		},
+	"/partials/components/_single-card.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/partials/components/_single-card.html",
+		"oF": 0
+		},
 	"/scripts/decklist.js": {
-		"bF": 4,
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -150,7 +284,7 @@
 		"tS": 1
 		},
 	"/scripts/hover-card.js": {
-		"bF": 4,
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -161,7 +295,7 @@
 		"tS": 1
 		},
 	"/scripts/main.js": {
-		"bF": 4,
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -172,7 +306,7 @@
 		"tS": 1
 		},
 	"/scripts/mid-article-response.js": {
-		"bF": 4,
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -183,7 +317,7 @@
 		"tS": 1
 		},
 	"/scripts/utils/ready.js": {
-		"bF": 4,
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -221,11 +355,11 @@
 	},
 "projectAttributes": {
 	"creationDate": 593394787.693946,
-	"displayValue": "pioneerpilot.com",
+	"displayValue": "pipi-website",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 593738719.13794196
+	"lastBuiltDate": 593978243.91708803
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2121,7 +2255,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
-		"bundleFormat": 4,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 0,
@@ -2157,7 +2291,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 0,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,

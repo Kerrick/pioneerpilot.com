@@ -162,6 +162,12 @@ header {
     margin: 2rem auto 0;
     padding: 0 1rem;
   }
+
+  &--metagame {
+    max-width: 680px; // Big enough to handle tables.
+    margin: 2rem auto 0;
+    padding: 0 1rem;
+  }
 }
 footer {
   background: $color-text;
@@ -502,5 +508,26 @@ footer {
 
   &__form-submit {
     font-family: system-ui, sans-serif;
+  }
+}
+.tier-list {
+  border: 1px solid $color-text;
+  font-family: system-ui, sans-serif;
+  width: 100%;
+
+  thead {
+    text-align: center;
+  }
+
+  thead small {
+    font-size: 8px;
+    display: block;
+  }
+
+  &__empty {
+    padding: 3rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
   }
 }
