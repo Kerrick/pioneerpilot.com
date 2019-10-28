@@ -101,7 +101,7 @@
 		"q": 100
 		},
 	"/assets/scripts/main-min.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -112,7 +112,7 @@
 		"tS": 1
 		},
 	"/assets/scripts/ready-min.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -131,20 +131,6 @@
 		"oAP": "/assets/styles/main-compiled-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/build/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/.gitignore",
-		"oF": 0
-		},
-	"/build/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "/build/build/node_modules",
-		"oF": 0
 		},
 	"/CNAME": {
 		"cB": 0,
@@ -273,7 +259,7 @@
 		"oF": 0
 		},
 	"/scripts/decklist.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -284,7 +270,7 @@
 		"tS": 1
 		},
 	"/scripts/hover-card.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -295,7 +281,7 @@
 		"tS": 1
 		},
 	"/scripts/main.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -306,7 +292,7 @@
 		"tS": 1
 		},
 	"/scripts/mid-article-response.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -317,7 +303,7 @@
 		"tS": 1
 		},
 	"/scripts/utils/ready.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -359,7 +345,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 593978243.91708803
+	"lastBuiltDate": 593994973.52719796
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2255,7 +2241,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
-		"bundleFormat": 0,
+		"bundleFormat": 4,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 0,
