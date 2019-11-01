@@ -163,6 +163,11 @@ header {
     padding: 0 1rem;
   }
 
+  &--subscribe {
+    max-width: 25rem;
+    margin: 0 auto;
+  }
+
   &--metagame {
     max-width: 680px; // Big enough to handle tables.
     margin: 2rem auto 0;

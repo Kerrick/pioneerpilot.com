@@ -130,17 +130,6 @@
 		"sC": 0,
 		"tS": 1
 		},
-	"/assets/scripts/scrape-wotc-min.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/scripts/scrape-wotc-min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 1
-		},
 	"/assets/styles/main-compiled.css": {
 		"aP": 1,
 		"bl": 0,
@@ -365,6 +354,14 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/subscribe/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/subscribe/index.html",
+		"oF": 1
+		},
 	"/yarn.lock": {
 		"cB": 0,
 		"ft": 8192,
@@ -384,7 +381,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 593994973.52719796
+	"lastBuiltDate": 594276116.15979803
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
