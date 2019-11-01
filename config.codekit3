@@ -17,6 +17,14 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/.nvmrc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.nvmrc",
+		"oF": 0
+		},
 	"/articles/2019/october/building-a-manabase-for-pioneer/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -122,6 +130,17 @@
 		"sC": 0,
 		"tS": 1
 		},
+	"/assets/scripts/scrape-wotc-min.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/scripts/scrape-wotc-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
+		},
 	"/assets/styles/main-compiled.css": {
 		"aP": 1,
 		"bl": 0,
@@ -131,6 +150,26 @@
 		"oAP": "/assets/styles/main-compiled-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/bin": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/bin",
+		"oF": 0
+		},
+	"/build/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
+	"/build/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/build/node_modules",
+		"oF": 0
 		},
 	"/CNAME": {
 		"cB": 0,
@@ -2419,7 +2458,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "/storage/framework/sessions,node_modules,_logs,logs,log,.idea,_cache,cache,/bin",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
