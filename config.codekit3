@@ -25,6 +25,22 @@
 		"oAP": "/.nvmrc",
 		"oF": 0
 		},
+	"/.prettierrc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.prettierrc",
+		"oF": 0
+		},
+	"/.vscode/launch.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/.vscode/launch-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/articles/2019/october/building-a-manabase-for-pioneer/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -167,6 +183,30 @@
 		"oA": 0,
 		"oAP": "/CNAME",
 		"oF": 0
+		},
+	"/data/decklists/leagues/2019-10-28.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/data/decklists/leagues/2019-10-28-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/data/decklists/leagues/2019-10-31.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/data/decklists/leagues/2019-10-31-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/data/decklists/paper/2019-11-03.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/data/decklists/paper/2019-11-03-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/feed.xml": {
 		"cB": 0,
@@ -354,6 +394,14 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/subscribe/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/subscribe/index.html",
+		"oF": 0
+		},
 	"/subscribe/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -377,7 +425,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 593394787.693946,
-	"displayValue": "pipi-website",
+	"displayValue": "pioneerpilot.com",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 0,
